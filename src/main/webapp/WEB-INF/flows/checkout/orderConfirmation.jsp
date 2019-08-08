@@ -69,9 +69,12 @@
                                 <c:forEach var="cartItem" items="${order.cart.cartItems}">
                                     <tr>
                                         <td class="col-md-9"><em>${cartItem.product.productName}</em></td>
-                                        <td class="col-md-1" style="text-align: center"><em>${cartItem.quantity}</em></td>
-                                        <td class="col-md-1" style="text-align: center"><em>${cartItem.product.productPrice}</em></td>
-                                        <td class="col-md-1" style="text-align: center"><em>${cartItem.totalPrice}</em></td>
+                                        <td class="col-md-1" style="text-align: center"><em>${cartItem.quantity}</em>
+                                        </td>
+                                        <td class="col-md-1" style="text-align: center">
+                                            <em>${cartItem.product.productPrice}</em></td>
+                                        <td class="col-md-1" style="text-align: center"><em>${cartItem.totalPrice}</em>
+                                        </td>
                                     </tr>
                                 </c:forEach>
                                 <tr>

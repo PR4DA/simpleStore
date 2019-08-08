@@ -16,7 +16,7 @@ import java.util.List;
 
 @Repository
 @Transactional
-public class CustomerDaoImpl implements CustomerDao{
+public class CustomerDaoImpl implements CustomerDao {
 
     @Autowired
     private SessionFactory sessionFactory;
@@ -52,7 +52,7 @@ public class CustomerDaoImpl implements CustomerDao{
         session.flush();
     }
 
-    public Customer getCustomerById (int customerId) {
+    public Customer getCustomerById(int customerId) {
         Session session = sessionFactory.getCurrentSession();
         return (Customer) session.get(Customer.class, customerId);
     }
@@ -65,7 +65,7 @@ public class CustomerDaoImpl implements CustomerDao{
         return customerList;
     }
 
-    public Customer getCustomerByUsername (String username) {
+    public Customer getCustomerByUsername(String username) {
         Session session = sessionFactory.getCurrentSession();
         Query query = session.createQuery("from Customer where username = ?");
         query.setString(0, username);

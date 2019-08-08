@@ -94,7 +94,7 @@ public class AdminProduct {
     public String deleteProduct(@PathVariable int id, Model model, HttpServletRequest request) {
         String rootDir = request.getSession().getServletContext().getRealPath("/");
         path = Paths.get(rootDir + "\\WEB-INF\\resources\\images\\" + id + ".png");
-        if(Files.exists(path)) {
+        if (Files.exists(path)) {
             try {
                 Files.delete(path);
             } catch (IOException e) {

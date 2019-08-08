@@ -1,5 +1,4 @@
-
-<%@include file="/WEB-INF/views/template/header.jsp"%>
+<%@include file="/WEB-INF/views/template/header.jsp" %>
 
 
 <div class="container-wrapper">
@@ -18,7 +17,7 @@
         </c:if>
 
         <h3>
-            <a href="<c:url value="/admin/productInventory"/> " >Product Inventory</a>
+            <a href="<c:url value="/admin/productInventory"/> ">Product Inventory</a>
         </h3>
 
         <p>Here you can view ,check & modify de products </p>
@@ -26,7 +25,7 @@
         <br/><br/>
 
         <h3>
-            <a href="<c:url value="/admin/customers"/> " >Customer's Management</a>
+            <a href="<c:url value="/admin/customers"/> ">Customer's Management</a>
         </h3>
 
         <p>Here you can view ,check & modify de customers</p>

@@ -1,5 +1,5 @@
-<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<%@include file="/WEB-INF/views/template/header.jsp"%>
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@include file="/WEB-INF/views/template/header.jsp" %>
 
 
 <div class="container-wrapper">
@@ -10,10 +10,11 @@
             <p class="lead">Fill/Update the form below</p>
         </div>
 
-        <form:form action="${pageContext.request.contextPath}/admin/product/editProduct" method="post" commandName="product" enctype="multipart/form-data">
+        <form:form action="${pageContext.request.contextPath}/admin/product/editProduct" method="post"
+                   commandName="product" enctype="multipart/form-data">
 
 
-        <form:hidden path="productId" value="${product.productId}"/>
+            <form:hidden path="productId" value="${product.productId}"/>
 
 
         <div class="form-group">
@@ -22,13 +23,17 @@
         </div>
         <div class="form-group">
             <label for="category">Category</label>
-            <label class="checkbox-inline"><form:radiobutton path="productCategory" id="category" value="closes"/> clothes</label>
-            <label class="checkbox-inline"><form:radiobutton path="productCategory" id="category" value="accessory"/> accessory's</label>
-            <label class="checkbox-inline"><form:radiobutton path="productCategory" id="category" value="shoes"/>shoes </label>
+            <label class="checkbox-inline"><form:radiobutton path="productCategory" id="category" value="closes"/>
+                clothes</label>
+            <label class="checkbox-inline"><form:radiobutton path="productCategory" id="category" value="accessory"/>
+                accessory's</label>
+            <label class="checkbox-inline"><form:radiobutton path="productCategory" id="category"
+                                                             value="shoes"/>shoes </label>
         </div>
         <div class="form-group">
             <label for="description">Description</label>
-            <form:textarea path="productDescription" id="description" class="form-Control" value="${product.productDescription}"/>
+            <form:textarea path="productDescription" id="description" class="form-Control"
+                           value="${product.productDescription}"/>
         </div>
         <div class="form-group">
             <label for="price">Price</label>
@@ -36,13 +41,17 @@
         </div>
         <div class="form-group">
             <label for="condition">Condition</label>
-            <label class="checkbox-inline"><form:radiobutton path="productCondition" id="condition" value="new"/> new</label>
-            <label class="checkbox-inline"><form:radiobutton path="productCondition" id="condition" value="used"/> used</label>
+            <label class="checkbox-inline"><form:radiobutton path="productCondition" id="condition" value="new"/>
+                new</label>
+            <label class="checkbox-inline"><form:radiobutton path="productCondition" id="condition" value="used"/>
+                used</label>
         </div>
         <div class="form-group">
             <label for="status">Status</label>
-            <label class="checkbox-inline"><form:radiobutton path="productStatus" id="status" value="active"/> active</label>
-            <label class="checkbox-inline"><form:radiobutton path="productStatus" id="status" value="disabled"/> disabled</label>
+            <label class="checkbox-inline"><form:radiobutton path="productStatus" id="status" value="active"/>
+                active</label>
+            <label class="checkbox-inline"><form:radiobutton path="productStatus" id="status" value="disabled"/>
+                disabled</label>
         </div>
         <div class="form-group">
             <label for="unitInStock">Unit In Stock</label>
@@ -50,7 +59,8 @@
         </div>
         <div class="form-group">
             <label for="manufacturer">Manufacturer</label>
-            <form:input path="productManufacturer" id="manufacturer" class="form-Control" value="${product.productManufacturer}"/>
+            <form:input path="productManufacturer" id="manufacturer" class="form-Control"
+                        value="${product.productManufacturer}"/>
         </div>
         <div class="form-group">
             <label class="control-label" for="productImage">Upload de image</label>
@@ -62,7 +72,6 @@
         <input type="submit" value="submit" class="btn btn-default">
         <a href="<c:url value="/admin/productInventory"/>">Cancel</a>
         </form:form>
-
 
 
         <%@include file="/WEB-INF/views/template/footer.jsp" %>

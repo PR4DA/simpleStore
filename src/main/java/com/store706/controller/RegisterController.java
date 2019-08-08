@@ -32,18 +32,18 @@ public class RegisterController {
         return "registerCustomer";
     }
 
-    @RequestMapping(value="/register", method = RequestMethod.POST)
+    @RequestMapping(value = "/register", method = RequestMethod.POST)
     public String registerCustomerPost(@Valid @ModelAttribute("customer") Customer customer, BindingResult result, Model model) {
-        if(result.hasErrors()) {
+        if (result.hasErrors()) {
             return "registerCustomer";
         }
-        List<Customer> customerList=customerService.getAllCustomers();
-        for(int i=0; i<customerList.size(); i++) {
-            if(customer.getCustomerEmail().equals(customerList.get(i).getCustomerEmail())){
+        List<Customer> customerList = customerService.getAllCustomers();
+        for (int i = 0; i < customerList.size(); i++) {
+            if (customer.getCustomerEmail().equals(customerList.get(i).getCustomerEmail())) {
                 model.addAttribute("emailMsg", "Email already exists");
                 return "registerCustomer";
             }
-            if(customer.getUsername().equals(customerList.get(i).getUsername())){
+            if (customer.getUsername().equals(customerList.get(i).getUsername())) {
                 model.addAttribute("usernameMsg", "Username already exists");
                 return "registerCustomer";
             }

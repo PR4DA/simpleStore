@@ -21,7 +21,7 @@ public class Product implements Serializable {
     private String productName;
     private String productCategory;
     private String productDescription;
-    @Min(value=0, message = "Price can't be lower zero")
+    @Min(value = 0, message = "Price can't be lower zero")
     private double productPrice;
     private String productCondition;
     private String productStatus;
@@ -40,7 +40,7 @@ public class Product implements Serializable {
         return this.productImage;
     }
 
-    public void setProductImage( MultipartFile productImage) {
+    public void setProductImage(MultipartFile productImage) {
         this.productImage = productImage;
     }
 
@@ -48,10 +48,9 @@ public class Product implements Serializable {
         return this.productId;
     }
 
-    public void setProductId( int productId) {
+    public void setProductId(int productId) {
         this.productId = productId;
     }
-
 
 
     public String getProductName() {

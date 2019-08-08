@@ -1,16 +1,16 @@
 "use strict";
-var cartApp = angular.module ("cartApp", []);
+var cartApp = angular.module("cartApp", []);
 
-cartApp.controller("cartCtrl", function ($scope, $http){
+cartApp.controller("cartCtrl", function ($scope, $http) {
 
     $scope.refreshCart = function () {
-        $http.get('/store706/rest/cart/'+$scope.cartId).success(function (data) {
-            $scope.cart=data;
+        $http.get('/store706/rest/cart/' + $scope.cartId).success(function (data) {
+            $scope.cart = data;
         });
     };
 
     $scope.clearCart = function () {
-        $http.delete('/store706/rest/cart/'+$scope.cartId).success($scope.refreshCart());
+        $http.delete('/store706/rest/cart/' + $scope.cartId).success($scope.refreshCart());
     };
 
     $scope.initCartId = function (cartId) {
@@ -19,22 +19,22 @@ cartApp.controller("cartCtrl", function ($scope, $http){
     };
 
     $scope.addToCart = function (productId) {
-        $http.put('/store706/rest/cart/add/'+productId).success(function () {
+        $http.put('/store706/rest/cart/add/' + productId).success(function () {
             alert("Product successfully added to the cart!")
         });
     };
 
     $scope.removeFromCart = function (productId) {
-        $http.put('/store706/rest/cart/remove/'+productId).success(function (data) {
+        $http.put('/store706/rest/cart/remove/' + productId).success(function (data) {
             $scope.refreshCart();
         });
     };
 
     $scope.calGrandTotal = function () {
-        var grandTotal=0;
+        var grandTotal = 0;
 
-        for (var i=0; i<$scope.cart.cartItems.length; i++) {
-            grandTotal+=$scope.cart.cartItems[i].totalPrice;
+        for (var i = 0; i < $scope.cart.cartItems.length; i++) {
+            grandTotal += $scope.cart.cartItems[i].totalPrice;
         }
 
         return grandTotal;

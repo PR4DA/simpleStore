@@ -44,7 +44,6 @@ public class Customer implements Serializable {
     private Cart cart;
 
 
-
     public int getCustomerId() {
         return this.customerId;
     }

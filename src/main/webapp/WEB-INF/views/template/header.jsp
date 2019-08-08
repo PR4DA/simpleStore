@@ -21,7 +21,7 @@
 
     <link href="<c:url value="/resources/css/carousel.css" />" rel="stylesheet">
 
-<%--    jquery table--%>
+    <%--    jquery table--%>
     <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet">
 
 

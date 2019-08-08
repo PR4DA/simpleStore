@@ -89,16 +89,8 @@ public class BillingAddress implements Serializable {
     }
 
 
-
     @Override
     public String toString() {
-        return "BillingAddress{" +
-                "streetName='" + streetName + '\'' +
-                ", apartmentNumber='" + apartmentNumber + '\'' +
-                ", city='" + city + '\'' +
-                ", state='" + state + '\'' +
-                ", country='" + country + '\'' +
-                ", zipCode='" + zipCode + '\'' +
-                '}';
+        return "BillingAddress{" + "streetName='" + streetName + '\'' + ", apartmentNumber='" + apartmentNumber + '\'' + ", city='" + city + '\'' + ", state='" + state + '\'' + ", country='" + country + '\'' + ", zipCode='" + zipCode + '\'' + '}';
     }
 }

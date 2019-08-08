@@ -15,19 +15,18 @@ public class HomeController {
     }
 
     @RequestMapping("/login")
-    public String login(@RequestParam(value = "error", required = false) String error, @RequestParam(value = "logout",
-            required = false) String logout, Model model) {
-        if(error!=null){
+    public String login(@RequestParam(value = "error", required = false) String error, @RequestParam(value = "logout", required = false) String logout, Model model) {
+        if (error != null) {
             model.addAttribute("error", "Invalid username & password.");
         }
-        if(logout!=null){
+        if (logout != null) {
             model.addAttribute("msg", "LOGGED OUT SUCCESSFULLY.");
         }
         return "login";
     }
 
     @RequestMapping("/about")
-    public String about(){
+    public String about() {
         return "about";
     }
 }

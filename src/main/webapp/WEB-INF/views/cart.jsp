@@ -14,11 +14,12 @@
         </section>
 
         <section class="container" ng-app="cartApp">
-            <div ng-controller = "cartCtrl" ng-init="initCartId('${cartId}')">
+            <div ng-controller="cartCtrl" ng-init="initCartId('${cartId}')">
                 <div>
                     <a class="btn btn-danger pull-left" ng-click="clearCart()"><span
                             class="glyphicon glyphicon-remove-sign"></span>Clear Cart</a>
-                    <a href="<spring:url value="/order/${cartId}"/>" class="btn btn-warning pull-right"><span class="glyphicon glyphicon-shopping-cart"></span>Order now ></a>
+                    <a href="<spring:url value="/order/${cartId}"/>" class="btn btn-warning pull-right"><span
+                            class="glyphicon glyphicon-shopping-cart"></span>Order now ></a>
                 </div>
 
                 <table class="table table-hover">
@@ -29,7 +30,7 @@
                         <th>Price</th>
                         <th>Action</th>
                     </tr>
-                    <tr ng-repeat = "item in cart.cartItems">
+                    <tr ng-repeat="item in cart.cartItems">
                         <td>{{item.product.productName}}</td>
                         <td>{{item.product.productPrice}}</td>
                         <td>{{item.quantity}}</td>

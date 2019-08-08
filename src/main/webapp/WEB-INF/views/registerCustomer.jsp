@@ -1,5 +1,5 @@
-<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<%@include file="/WEB-INF/views/template/header.jsp"%>
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@include file="/WEB-INF/views/template/header.jsp" %>
 
 
 <div class="container-wrapper">
@@ -16,7 +16,8 @@
             <form:input path="customerName" id="name" class="form-Control"/>
         </div>
         <div class="form-group">
-            <label for="email">Email</label><span style="color: #d43f3a">${emailMsg}</span><form:errors path="customerEmail" cssStyle="color: #d43f3a"/>
+            <label for="email">Email</label><span style="color: #d43f3a">${emailMsg}</span><form:errors
+                path="customerEmail" cssStyle="color: #d43f3a"/>
             <form:input path="customerEmail" id="email" class="form-Control"/>
         </div>
         <div class="form-group">
@@ -24,7 +25,8 @@
             <form:input path="customerPhone" id="phone" class="form-Control"/>
         </div>
         <div class="form-group">
-            <label for="username">Username</label><span style="color: #d43f3a">${usernameMsg}</span><form:errors path="username" cssStyle="color: #d43f3a"/>
+            <label for="username">Username</label><span style="color: #d43f3a">${usernameMsg}</span><form:errors
+                path="username" cssStyle="color: #d43f3a"/>
             <form:input path="username" id="username" class="form-Control"/>
         </div>
         <div class="form-group">
@@ -91,7 +93,6 @@
         <input type="submit" value="submit" class="btn btn-default">
         <a href="<c:url value="/"/>">Cancel</a>
         </form:form>
-
 
 
         <%@include file="/WEB-INF/views/template/footer.jsp" %>

@@ -1,5 +1,5 @@
-<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<%@include file="/WEB-INF/views/template/header.jsp"%>
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@include file="/WEB-INF/views/template/header.jsp" %>
 
 
 <div class="container-wrapper">
@@ -20,7 +20,8 @@
         </div>
         <div class="form-group">
             <label for="shippingApartmentNumber">Apartment Number</label>
-            <form:input path="cart.customer.shippingAddress.apartmentNumber" id="shippingApartmentNumber" class="form-Control"/>
+            <form:input path="cart.customer.shippingAddress.apartmentNumber" id="shippingApartmentNumber"
+                        class="form-Control"/>
         </div>
         <div class="form-group">
             <label for="shippingCity">City</label>
@@ -39,16 +40,15 @@
             <form:input path="cart.customer.shippingAddress.zipCode" id="shippingZip" class="form-Control"/>
         </div>
 
-        <input type="hidden" name="_flowExecutionKey" />
+        <input type="hidden" name="_flowExecutionKey"/>
 
         <br/><br/>
 
         <button class="btn btn-default" name="_eventId_backToCollectCustomerInfo">Back</button>
 
-        <input type="submit" value="Next" class="btn btn-default" name="_eventId_shippingDetailCollected" />
+        <input type="submit" value="Next" class="btn btn-default" name="_eventId_shippingDetailCollected"/>
         <button class="btn btn-default" name="_eventId_cancel">Cancel</button>
         </form:form>
-
 
 
 <%@include file="/WEB-INF/views/template/footer.jsp" %>

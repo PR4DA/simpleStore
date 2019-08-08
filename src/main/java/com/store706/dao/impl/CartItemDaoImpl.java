@@ -14,7 +14,7 @@ import java.util.List;
 
 @Repository
 @Transactional
-public class CartItemDaoImpl implements CartItemDao{
+public class CartItemDaoImpl implements CartItemDao {
 
     @Autowired
     private SessionFactory sessionFactory;
@@ -25,7 +25,7 @@ public class CartItemDaoImpl implements CartItemDao{
         session.flush();
     }
 
-    public void removeCartItem (CartItem cartItem) {
+    public void removeCartItem(CartItem cartItem) {
         Session session = sessionFactory.getCurrentSession();
         session.delete(cartItem);
         session.flush();
@@ -39,7 +39,7 @@ public class CartItemDaoImpl implements CartItemDao{
         }
     }
 
-    public CartItem getCartItemByProductId (int productId) {
+    public CartItem getCartItemByProductId(int productId) {
         Session session = sessionFactory.getCurrentSession();
         Query query = session.createQuery("from CartItem where productId = ?");
         query.setInteger(0, productId);

@@ -1,5 +1,5 @@
-<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<%@include file="/WEB-INF/views/template/header.jsp"%>
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@include file="/WEB-INF/views/template/header.jsp" %>
 
 <!-- Carousel
 ================================================== -->
@@ -50,7 +50,8 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
-</div><!-- /.carousel -->
+</div>
+<!-- /.carousel -->
 
 
 <!-- Marketing messaging and featurettes
@@ -62,22 +63,29 @@
     <!-- Three columns of text below the carousel -->
     <div class="row">
         <div class="col-lg-4">
-            <img class="img-circle" src="<c:url value="/resources/images/prada.jpg"/>" alt="Prada" width="140" height="140">
+            <img class="img-circle" src="<c:url value="/resources/images/prada.jpg"/>" alt="Prada" width="140"
+                 height="140">
             <h2>PRADA</h2>
             <p>Something 4 everyone.</p>
-            <p><a class="btn btn-danger" href="<c:url value="/product/productList?searchCondition=prada"/>" role="button">View all products &raquo;</a></p>
+            <p><a class="btn btn-danger" href="<c:url value="/product/productList?searchCondition=prada"/>"
+                  role="button">View all products &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-            <img class="img-circle" src="<c:url value="/resources/images/chanel.jpg"/>" alt="Chanel" width="140" height="140">
+            <img class="img-circle" src="<c:url value="/resources/images/chanel.jpg"/>" alt="Chanel" width="140"
+                 height="140">
             <h2>CHANEL</h2>
-            <p>Enter the world of CHANEL and discover the latest in Fashion & Accessories, Eyewear, Fragrance & Beauty, Fine Jewelry & Watches.</p>
-            <p><a class="btn btn-danger" href="<c:url value="/product/productList?searchCondition=chanel"/>" role="button">View all products &raquo;</a></p>
+            <p>Enter the world of CHANEL and discover the latest in Fashion & Accessories, Eyewear, Fragrance & Beauty,
+                Fine Jewelry & Watches.</p>
+            <p><a class="btn btn-danger" href="<c:url value="/product/productList?searchCondition=chanel"/>"
+                  role="button">View all products &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-            <img class="img-circle" src="<c:url value="/resources/images/viton.gif"/>" alt="Louis Vuitton" width="140" height="140">
+            <img class="img-circle" src="<c:url value="/resources/images/viton.gif"/>" alt="Louis Vuitton" width="140"
+                 height="140">
             <h2>Louis Vuitton</h2>
             <p>World of Louis Vuitton(TM)</p>
-            <p><a class="btn btn-danger" href="<c:url value="/product/productList?searchCondition=louis+vuitton"/>" role="button">View all products &raquo;</a></p>
+            <p><a class="btn btn-danger" href="<c:url value="/product/productList?searchCondition=louis+vuitton"/>"
+                  role="button">View all products &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 

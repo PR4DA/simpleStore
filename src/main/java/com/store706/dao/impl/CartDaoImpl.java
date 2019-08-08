@@ -13,7 +13,7 @@ import java.io.IOException;
 
 @Repository
 @Transactional
-public class CartDaoImpl implements CartDao{
+public class CartDaoImpl implements CartDao {
 
     @Autowired
     private SessionFactory sessionFactory;
@@ -21,7 +21,7 @@ public class CartDaoImpl implements CartDao{
     @Autowired
     private CustomerOrderService customerOrderService;
 
-    public Cart getCartById (int cartId) {
+    public Cart getCartById(int cartId) {
         Session session = sessionFactory.getCurrentSession();
         return (Cart) session.get(Cart.class, cartId);
     }
@@ -30,8 +30,8 @@ public class CartDaoImpl implements CartDao{
     public Cart validate(int cartId) throws IOException {
         Cart cart = getCartById(cartId);
 
-        if(cart==null||cart.getCartItems().size()==0) {
-            throw new IOException(cartId+"");
+        if (cart == null || cart.getCartItems().size() == 0) {
+            throw new IOException(cartId + "");
         }
         update(cart);
         return cart;
