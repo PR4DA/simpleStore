@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02498208-eab1-4f43-a94c-14a9b0bba622" name="Default Changelist" comment="Simple Store">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/controller/CartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/controller/CartResources.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/controller/RegisterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/controller/admin/AdminHome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/controller/admin/AdminProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/CartDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/CartItemDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/CustomerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/CustomerOrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/ProductDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/impl/CartDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/impl/CartItemDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/impl/CustomerDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/impl/CustomerOrderDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/impl/ProductDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/Authorities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/BillingAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/Cart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/CartItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/CustomerOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/ShippingAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/CartItemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/CartService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/CustomerOrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/impl/CartItemServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/impl/CartServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/impl/CustomerOrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/impl/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/impl/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/flows/checkout/checkout-flow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/flows/checkout/checkoutCancelled.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/flows/checkout/collectCustomerInfo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/flows/checkout/collectShippingDetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/flows/checkout/invalidCartWarning.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/flows/checkout/orderConfirmation.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/flows/checkout/thankCustomer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/css/carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/images/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/images/chanel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/images/prada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/images/viton.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/js/controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/js/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/about.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/addProduct.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/admin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/cart.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/customerManagment.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/editProduct.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/productInventory.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/productList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/registerCustomer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/registerCustomerSuccess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/template/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/template/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/viewProduct.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/flows/checkout/checkout-flow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/flows/checkout/checkoutCancelled.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/flows/checkout/collectCustomerInfo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/flows/checkout/collectShippingDetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/flows/checkout/invalidCartWarning.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/flows/checkout/orderConfirmation.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/flows/checkout/thankCustomer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/commons-collections-3.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/commons-fileupload-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/commons-io-2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/hibernate-core-4.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/hibernate-validator-4.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/jackson-annotations-2.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/jackson-core-2.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/jackson-databind-2.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/javassist-3.15.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/jboss-logging-3.1.0.CR2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/ognl-2.6.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/slf4j-api-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-aop-4.1.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-beans-4.1.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-binding-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-context-4.1.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-core-4.1.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-expression-4.1.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-jdbc-4.1.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-js-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-js-resources-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-orm-4.1.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-security-config-3.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-security-core-3.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-security-web-3.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-tx-4.1.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-web-4.1.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-webflow-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-webmvc-4.1.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/validation-api-1.0.0.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/css/carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/images/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/images/chanel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/images/prada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/images/viton.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/js/controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/js/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/about.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/addProduct.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/admin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/cart.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/customerManagment.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/editProduct.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/productInventory.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/productList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/registerCustomer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/registerCustomerSuccess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/template/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/template/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/viewProduct.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/store706/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/store706/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/store706/model/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/store706/model/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store706.iml" beforeDir="false" afterPath="$PROJECT_DIR$/store706.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/controller/CartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/controller/CartResources.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/controller/RegisterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/controller/admin/AdminHome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/controller/admin/AdminProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/CartDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/CartItemDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/CustomerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/CustomerOrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/ProductDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/impl/CartDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/impl/CartItemDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/impl/CustomerDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/impl/CustomerOrderDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/impl/ProductDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/Authorities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/BillingAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/Cart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/CartItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/CustomerOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/ShippingAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/CartItemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/CartService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/CustomerOrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/impl/CartItemServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/impl/CartServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/impl/CustomerOrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/impl/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/impl/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flows/checkout/checkout-flow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flows/checkout/checkoutCancelled.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flows/checkout/collectCustomerInfo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flows/checkout/collectShippingDetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flows/checkout/invalidCartWarning.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flows/checkout/orderConfirmation.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flows/checkout/thankCustomer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/css/carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/images/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/images/chanel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/images/prada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/images/viton.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/js/controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/js/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/about.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/addProduct.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/admin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/cart.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/customerManagment.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/editProduct.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/productInventory.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/productList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/registerCustomer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/registerCustomerSuccess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/template/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/template/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/viewProduct.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/store706/model/Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store706/model/CartItem.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-23" />
+    <option name="y" value="114" />
+    <option name="width" value="869" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="store706" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="store706" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="store706" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="store706" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="store706" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="store706" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="store706" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="store706" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="checkout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="495000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24160346" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="15" visible="true" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/dao/impl/CartDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/dao/impl/CartItemDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/dao/impl/CustomerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/dao/impl/CustomerOrderDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/dao/impl/ProductDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/dao/CartDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/dao/CartItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/dao/CustomerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/dao/CustomerOrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/model/Authorities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/model/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/model/BillingAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/model/CartItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/model/CustomerOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/model/ShippingAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/model/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/service/impl/CartItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/service/impl/CartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/service/impl/CustomerOrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/service/impl/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/service/CartItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/service/CartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/service/CustomerOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/checkout/checkout-flow.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/checkout/checkoutCancelled.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/checkout/collectCustomerInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/checkout/collectShippingDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/checkout/invalidCartWarning.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/checkout/orderConfirmation.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/checkout/thankCustomer.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/bootstrap-theme.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/carousel.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/css/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/images/prada.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simple_Store.patch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16695" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
