@@ -17,6 +17,7 @@
                 </c:if>
                 <div class="form-group">
                     <label for="username">User: </label>
+
                     <input type="text" id="username" name="username" class="form-control" />
                 </div>
                 <div class="form-group">
