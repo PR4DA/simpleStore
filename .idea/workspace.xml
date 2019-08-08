@@ -2,272 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02498208-eab1-4f43-a94c-14a9b0bba622" name="Default Changelist" comment="Simple Store">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/controller/CartController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/controller/CartResources.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/controller/OrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/controller/ProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/controller/RegisterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/controller/admin/AdminHome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/controller/admin/AdminProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/CartDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/CartItemDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/CustomerDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/CustomerOrderDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/ProductDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/impl/CartDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/impl/CartItemDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/impl/CustomerDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/impl/CustomerOrderDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/dao/impl/ProductDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/Authorities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/BillingAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/CartItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/CustomerOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/ShippingAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/model/Users.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/CartItemService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/CartService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/CustomerOrderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/CustomerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/ProductService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/impl/CartItemServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/impl/CartServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/impl/CustomerOrderServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/impl/CustomerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/com/store706/service/impl/ProductServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/dispatcher-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/flows/checkout/checkout-flow.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/flows/checkout/checkoutCancelled.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/flows/checkout/collectCustomerInfo.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/flows/checkout/collectShippingDetail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/flows/checkout/invalidCartWarning.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/flows/checkout/orderConfirmation.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/flows/checkout/thankCustomer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/css/carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/images/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/images/chanel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/images/prada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/images/viton.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/js/controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/resources/js/jquery-1.11.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/about.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/addProduct.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/admin.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/cart.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/customerManagment.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/editProduct.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/productInventory.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/productList.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/registerCustomer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/registerCustomerSuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/template/footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/template/header.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/views/viewProduct.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/classes/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/flows/checkout/checkout-flow.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/flows/checkout/checkoutCancelled.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/flows/checkout/collectCustomerInfo.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/flows/checkout/collectShippingDetail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/flows/checkout/invalidCartWarning.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/flows/checkout/orderConfirmation.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/flows/checkout/thankCustomer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/commons-collections-3.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/commons-fileupload-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/commons-io-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/hibernate-core-4.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/hibernate-validator-4.2.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/jackson-annotations-2.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/jackson-core-2.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/jackson-databind-2.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/javassist-3.15.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/jboss-logging-3.1.0.CR2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/ognl-2.6.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/slf4j-api-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-aop-4.1.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-beans-4.1.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-binding-2.3.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-context-4.1.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-core-4.1.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-expression-4.1.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-jdbc-4.1.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-js-2.3.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-js-resources-2.3.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-orm-4.1.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-security-config-3.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-security-core-3.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-security-web-3.2.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-tx-4.1.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-web-4.1.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-webflow-2.3.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/spring-webmvc-4.1.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/validation-api-1.0.0.GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/css/carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/images/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/images/chanel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/images/prada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/images/viton.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/js/controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/resources/js/jquery-1.11.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/about.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/addProduct.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/admin.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/cart.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/customerManagment.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/editProduct.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/productInventory.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/productList.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/registerCustomer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/registerCustomerSuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/template/footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/template/header.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/views/viewProduct.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/store706_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/store706/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/store706/model/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/store706/model/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/store706/model/CartItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store706.iml" beforeDir="false" afterPath="$PROJECT_DIR$/store706.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/controller/CartController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/controller/CartResources.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/controller/OrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/controller/ProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/controller/RegisterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/controller/admin/AdminHome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/controller/admin/AdminProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/CartDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/CartItemDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/CustomerDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/CustomerOrderDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/ProductDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/impl/CartDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/impl/CartItemDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/impl/CustomerDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/impl/CustomerOrderDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/dao/impl/ProductDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/Authorities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/BillingAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/CartItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/CustomerOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/ShippingAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/model/Users.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/CartItemService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/CartService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/CustomerOrderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/CustomerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/ProductService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/impl/CartItemServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/impl/CartServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/impl/CustomerOrderServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/impl/CustomerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/store706/service/impl/ProductServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dispatcher-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flows/checkout/checkout-flow.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flows/checkout/checkoutCancelled.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flows/checkout/collectCustomerInfo.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flows/checkout/collectShippingDetail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flows/checkout/invalidCartWarning.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flows/checkout/orderConfirmation.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/flows/checkout/thankCustomer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/css/carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/images/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/images/chanel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/images/prada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/images/viton.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/js/controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/js/jquery-1.11.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/about.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/addProduct.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/admin.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/cart.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/customerManagment.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/editProduct.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/productInventory.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/productList.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/registerCustomer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/registerCustomerSuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/template/footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/template/header.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/viewProduct.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/controller/admin/AdminProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-818">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -278,6 +66,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/store706/model/Cart.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/store706/model/CartItem.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
       </list>
     </option>
   </component>
@@ -502,9 +291,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.idea/workspace.xml" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -518,14 +308,111 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/store706/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="store706:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/store706" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SimpleStore" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54639" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="store706:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Simple Store">
+      <created>1565267918506</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565267918506</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Simple Store">
+      <created>1565267980321</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565267980321</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Simple Store">
+      <created>1565269102756</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565269102756</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="495000" />
+    <option name="totallyTimeSpent" value="4456000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -562,7 +449,7 @@
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="15" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="15" visible="true" weight="0.2881907" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -615,21 +502,12 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Simple Store" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple Store" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/controller/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/dao/impl/CartDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -891,15 +769,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16695" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="186">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store706/controller/admin/AdminProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-818">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -909,10 +803,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>store706:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
